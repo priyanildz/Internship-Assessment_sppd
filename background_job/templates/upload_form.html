@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Uploader</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #f5f5f5;
+        }
+
+        .upload-box {
+            background: #cde0ff;
+            border: 3px dashed #90a4ff;
+            padding: 40px;
+            width: 400px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        .upload-box input[type="file"] {
+            display: none;
+        }
+
+        .custom-file-upload {
+            background-color: #3b5998;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .output-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        img {
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div class="upload-box">
+            <label class="custom-file-upload">
+                <input type="file" name="image" required onchange="this.form.submit()" />
+                📁 Select Image
+            </label>
+            <p>or drag and drop images here</p>
+            <small>Max file size: 10 MB</small>
+        </div>
+    </form>
+
+    {% if thumbnails or watermark %}
+    <div class="output-section">
+        <h2>Processed Output</h2>
+        <h3>Thumbnails</h3>
+        {% for thumb in thumbnails %}
+            <img src="/processed/{{ thumb }}" width="200">
+        {% endfor %}
+
+        <h3>Watermarked Image</h3>
+        <img src="/processed/{{ watermark }}" width="400">
+    </div>
+    {% endif %}
+
+</body>
+</html>

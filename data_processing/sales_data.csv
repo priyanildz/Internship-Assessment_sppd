@@ -1,0 +1,51 @@
+Product_ID,Category,Product_Name,Quantity,Price
+101,Electronics,Earphones,3,500
+102,Clothing,T-Shirt,2,300
+103,Electronics,Mobile Cover,5,150
+104,Clothing,Jeans,1,1200
+105,Books,Python Guide,4,400
+106,Furniture,Office Chair,2,3500
+107,Electronics,Laptop,1,45000
+108,Clothing,Shirt,3,500
+109,Books,Machine Learning,2,700
+110,Furniture,Table,1,5000
+111,Books,AI Basics,5,300
+112,Electronics,Smartwatch,2,2500
+113,Clothing,Cap,4,150
+114,Furniture,Bookshelf,1,4000
+115,Books,Data Science Handbook,3,450
+116,Electronics,Monitor,1,9000
+117,Furniture,Sofa,1,15000
+118,Books,Math for AI,4,350
+119,Clothing,Jacket,2,1800
+120,Electronics,Router,2,1200
+121,Books,NLP Guide,2,600
+122,Electronics,Keyboard,3,800
+123,Clothing,Dress,1,2000
+124,Furniture,Stool,4,600
+125,Books,Deep Learning,3,800
+126,Clothing,Trousers,2,900
+127,Electronics,Mouse,5,400
+128,Books,Statistics for ML,2,550
+129,Furniture,TV Stand,1,4500
+130,Clothing,Shorts,3,700
+131,Electronics,Power Bank,2,1500
+132,Books,Algorithms,1,750
+133,Furniture,Desk,1,5500
+134,Electronics,Camera,1,25000
+135,Books,Computer Vision,1,950
+136,Clothing,Kurti,2,1100
+137,Furniture,Lamp,2,1200
+138,Electronics,Tablet,1,20000
+139,Books,Linear Algebra,3,400
+140,Clothing,Scarf,2,300
+141,Furniture,Bed,1,18000
+142,Electronics,VR Headset,1,22000
+143,Books,Probability,2,500
+144,Clothing,Blazer,1,3500
+145,Furniture,Cabinet,1,7000
+146,Books,Reinforcement Learning,1,1050
+147,Electronics,Drone,1,30000
+148,Clothing,Socks,5,100
+149,Furniture,Mirror,2,2000
+150,Books,Intro to Python,3,550
